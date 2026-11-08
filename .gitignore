@@ -1,0 +1,40 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Build output
+*.exe
+*.o
+*.obj
+drone_analyzer
+drone_analyzer.exe
+drone_3d_viz
+drone_3d_viz.exe
+laporan_analisis.txt
+attitude_plot.png
+
+# Data capture & output
+drone_data.csv
+*.csv
+drone_3d_data.js
+output_3d.js
+
+# 3D visualization output
+drone_3d.html
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Arduino
+.arduinoIDE/
