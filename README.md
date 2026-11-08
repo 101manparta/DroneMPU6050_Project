@@ -252,56 +252,6 @@ Project ini dirancang untuk **pembelajaran, prototipe, dan uji coba konsep**, bu
 
 ---
 
-## 📤 Panduan Upload ke GitHub
-
-Pastikan repository sudah dibuat di:  
-👉 `https://github.com/101manparta/DroneMPU6050_Project.git`
-
-### Langkah 1: Install Git
-
-- **Windows**: [git-scm.com/download/win](https://git-scm.com/download/win)
-- **Linux**: `sudo apt install git`
-- **macOS**: `brew install git`
-
-### Langkah 2: Konfigurasi Git (satu kali saja)
-
-```bash
-git config --global user.name "101manparta"
-git config --global user.email "emailkamu@gmail.com"
-```
-
-### Langkah 3: Masuk ke Folder Project
-
-```bash
-cd "C:\Users\HP\DroneMPU6050_Project"
-```
-
-### Langkah 4: Inisialisasi & Push
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Drone MPU6050 EKF + Magnetometer + 3D Viz + Professional README"
-git branch -M main
-git remote add origin https://github.com/101manparta/DroneMPU6050_Project.git
-git push -u origin main
-```
-
-> Jika diminta password GitHub, gunakan **Personal Access Token (PAT)**:
-> Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token
-
-### Langkah 5: Verifikasi
-
-Buka: `https://github.com/101manparta/DroneMPU6050_Project`
-
-Pastikan:
-- [x] Semua folder dan file terlihat
-- [x] README menampilkan banner dan badges
-- [x] Tidak ada file build (`*.exe`, `*.csv`, `laporan_analisis.txt`) yang ter-upload (sudah di `.gitignore`)
-- [x] `banner.svg` muncul di root
-
----
-
 ## 🤝 Kontribusi
 
 Kontribusi sangat diterima! Silakan baca `CONTRIBUTING.md` untuk pedoman berkontribusi.
